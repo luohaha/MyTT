@@ -1,7 +1,7 @@
 package com.github.luohaha.MyTT.core;
 
 public class Machine {
-	// 机器上的时间漂移速率，ns/s
+	// 机器上的时间漂移速率，ns/ms 或者 us/s
 	private long driftRate;
 	// 上次校正的时间 ns
 	private long lastReviseTime;
